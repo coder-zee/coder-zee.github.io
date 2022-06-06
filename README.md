@@ -2,9 +2,9 @@
 
 ## Array
 
-- [Two Sum](https://leetcode.com/problems/two-sum/) [[solution](./solutions/two-sum)]
+- [Two Sum](https://leetcode.com/problems/two-sum/) [[solution](./solutions/two-sum.md)]
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) [[solution](./solutions/contains-duplicate.md)]
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
@@ -91,7 +91,7 @@
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [[solution](./solutions/valid-parentheses)]
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [[solution](./solutions/valid-parentheses.md)]
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
@@ -110,8 +110,8 @@
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-- [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-search-tree)]
-- [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-tree)]
+- [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-search-tree.md)]
+- [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-tree.md)]
 - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
