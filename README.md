@@ -2,7 +2,7 @@
 
 ## Array
 
-- [Two Sum](https://leetcode.com/problems/two-sum/) [[solution](./solutions/two-sum.md)]
+- [Two Sum](https://leetcode.com/problems/two-sum/) [[solution](./solutions/two-sum)]
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
@@ -110,7 +110,7 @@
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-- [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-search-tree.md)]
+- [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [[solution](./solutions/lowest-common-ancestor-of-a-binary-search-tree)]
 - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
