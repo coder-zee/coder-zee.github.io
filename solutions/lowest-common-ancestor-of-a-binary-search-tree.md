@@ -21,32 +21,21 @@ function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: Tree
     
     // Input validation, edge cases
     if(root === null || p === null || q === null) return null;
+    if(root.val === p.val && isPresent(root, q)) return  p;
+    if(root.val === q.val && isPresent(root, p)) return  q;
     
-    const [foundP, pathP] = binarySearchWithPath(root, p);
-    if(!foundP) return null;
-    
-    const [foundQ, pathQ] = binarySearchWithPath(root, q);
-    if(!foundQ) return null;
-    
-    let lca = null;
-    while(pathP !== null && pathQ !== null && pathP[0] === pathQ[0]) {
-        lca = pathP[0]
-        pathP.shift();
-        pathQ.shift();
+    if (p.val < root.val && q.val < root.val){
+        return lowestCommonAncestor(root.left, p, q);
     }
-    return lca;
+    if (p.val > root.val && q.val > root.val){
+        return lowestCommonAncestor(root.right, p, q);
+    }
+    return root;
 };
 
-function binarySearchWithPath(root: TreeNode, node: TreeNode): [boolean, TreeNode[]] {
-    if(root === null) return [false, []]
-    if(root.val === node.val) return [true, [root]]
-    
-    const [foundInLeftChild, pathLeft] = binarySearchWithPath(root.left, node);
-    const [foundInRightChild, rightRight] = binarySearchWithPath(root.right, node);
-    
-    if(foundInLeftChild) return [true, [root, ...pathLeft]];
-    if(foundInRightChild) return [true, [root, ...rightRight]];
-    
-    return [false, []];
+function isPresent(root: TreeNode | null, node: TreeNode) {
+    if(root === null) return false;
+    return root.val === node.val || (isPresent(root.left, node) && isPresent(root.right, node));
 }
+
 ```
