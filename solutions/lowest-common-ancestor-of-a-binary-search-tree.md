@@ -35,7 +35,7 @@ function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: Tree
 
 function isPresent(root: TreeNode | null, node: TreeNode) {
     if(root === null) return false;
-    return root.val === node.val || (isPresent(root.left, node) && isPresent(root.right, node));
+    return root.val === node.val || isPresent(root.left, node) || isPresent(root.right, node);
 }
 
 ```
